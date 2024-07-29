@@ -1,0 +1,3094 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;font-size:100%;font:inherit;vertical-align:baseline}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}body{line-height:1.8;font-size:.875rem;color:#fff;background-color:#fff}.p{word-break:break-word}.h1_sub{display:block;font-size:12px;color:#fff}.background{background-image:url(img/game/background.jpg);background-size:cover;background-position:center;width:100%;height:100%;position:fixed;filter:blur(5px)}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:"";content:none}table{border-collapse:collapse;border-spacing:0}.system{color:#fff;margin-bottom:15px;background:rgba(0,0,0,.5);padding:5px 10px;border-radius:5px;display:block}.system+.system{margin-top:-10px}.body{background:rgba(0,0,0,.4);max-width:800px;margin:auto;padding:15px;box-sizing:border-box;position:relative}.main{display:flex;text-align:justify}.main:not(:last-child){margin-bottom:15px}.ic{margin-right:15px;line-height:0}.ic img{max-width:60px;height:auto}body{font-family:"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif}img{max-width:100%;height:auto;align-self:flex-start}b{font-weight:700}.success{color:#2196f3}.fail{color:#f50057}.name1 { color: rgb(103, 58, 183); }.name2 { color: rgb(233, 30, 99); }.name3 { color: rgb(158, 158, 158); }.name4 { color: rgb(255, 152, 0); }.name5 { color: rgb(255, 235, 59); }.name6 { color: rgb(63, 81, 181); }.name7 { color: rgb(0, 150, 136); }.name8 { color: rgb(136, 136, 136); }</style>
+<title>アリアンロッド</title>
+</head>
+<body>
+<div class="background">
+</div>
+<div class="body">
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_0.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name1">リリア</b>
+<br>
+「かっこうよさげなびーじーえむというやつ」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_0.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name1">リリア</b>
+<br>
+「しすたーがながしていた」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_0.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name1">リリア</b>
+<br>
+おふろにいるらしい</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_0.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name1">リリア</b>
+<br>
+きゅうけつきはおふろにはいるの？</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_5.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">カディナ</b>
+<br>
+吸血鬼はお風呂入らない</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_5.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">カディナ</b>
+<br>
+ワイン風呂には入るらしい</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_0.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name1">リリア</b>
+<br>
+なるほど……</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_0.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name1">リリア</b>
+<br>
+ほんぺんのネタにするってなかのひとがいってた</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_5.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">カディナ</b>
+<br>
+hoo…なかなかいいセンスをしているな</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_5.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">カディナ</b>
+<br>
+っていうか風呂に携帯持って行ってんのか？</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_0.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name1">リリア</b>
+<br>
+あいふぉんはぼうすいせいばっちり</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_5.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">カディナ</b>
+<br>
+しすたーがそういってた</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_5.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">カディナ</b>
+<br>
+ところでダチョウの卵をゆでるのって４時間かかるらしいぞ</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_5.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">カディナ</b>
+<br>
+天啓をえた</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_0.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name1">リリア</b>
+<br>
+しすたーはものしり</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_9.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name3">ガル</b>
+<br>
+「ん、クリアは今日も元気」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_10.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+「あんたも元気そうね、ガル」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_9.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name3">ガル</b>
+<br>
+「どこか出かけてたの？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_10.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+「いや、ずっとそこにいたわよ」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_9.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name3">ガル</b>
+<br>
+「ん、私もゴロゴロしてた」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_10.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+「ここよここ！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_9.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name3">ガル</b>
+<br>
+「ん、まってた」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+扉が開き―――。</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+君達のもとに、声が届く。</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『やあやあ！ようこそ！久しぶりの冒険者の諸君！！！』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『とっても楽しいダンジョン、チュートリアル伯爵の館へようこそ！』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『私の名前はチュートリアル伯爵という！以降お見知りおきを！』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_2.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name5">レイモンド＝ヴァーク</b>
+<br>
+</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_0.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name1">リリア</b>
+<br>
+</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「……随分間抜けな声色だな。いったいどこから話しているんだ？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「警戒は怠るなよ、レイモンド」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_2.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name5">レイモンド＝ヴァーク</b>
+<br>
+「みんな、警戒を怠るなよ！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「…っ！いったいどこから…！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_5.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">カディナ</b>
+<br>
+（銃を構える）</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_9.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name3">ガル</b>
+<br>
+「……周囲に気配はない。どこから……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『君達は胸躍る冒険を求め、このダンジョンにやってきた！ダンジョンは冒険者と共にあり、冒険者を楽しませるために存在している！』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『重なるトラップ、探れば出てくる宝箱！なんて魅力的で甘美な響きだろう！』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『君達も―――そうした素敵な冒険を期待していたんじゃないのか？』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_5.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">カディナ</b>
+<br>
+「そんなものはどうでもいい。お前の頭をぶち抜ければ」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_0.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name1">リリア</b>
+<br>
+「しすたー…すごいけんまく…どうしたの？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_5.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">カディナ</b>
+<br>
+「特に理由はない」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「ふむ、偶にはいいことを言うじゃないか赤髪。その意見には同意だな」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「喋ってないで警戒してください！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_2.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name5">レイモンド＝ヴァーク</b>
+<br>
+「胸を躍る冒険…！ああ、確かに気をひかれるな！でも今はチュートリアル伯爵！あんたを倒しに来たんだ！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『……ふむ、それはどうして？』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_9.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name3">ガル</b>
+<br>
+「……みんな、迷惑してる。色んな人が、このダンジョンで倒れたって、聞いた」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_2.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name5">レイモンド＝ヴァーク</b>
+<br>
+「あんたがダンジョンの領地を広げていって町に危険がでているからオイラ達はあんたを止めにきたんだ！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『それは本意ではない。どのような犠牲が広がっていたというんだ？』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『洞窟の奥深く、定められた扉の先からしか入る事の出来ないこのダンジョンで、一体だれが迷惑しているというんだ？』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『外部に被害を与えたか？領地を奪い取ったことはあったか？』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『私は、君達冒険者に夢を与えるために……このダンジョンに住み着いているに過ぎない』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『楽しい冒険を期待してここに訪れたのでなければ、君達はこの場所には相応しくない。冒険者というのも……夢が無くなったものだ』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_9.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name3">ガル</b>
+<br>
+「……冒険者……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「現実的で悪かったですね。金払いは良かったので来たんですよ」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「……楽しい冒険を求めて旅をする冒険者など、もうこの地にはおらん。他者に迷惑が掛かっているというのだ。どこへでも鞍替えするといい」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_5.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">カディナ</b>
+<br>
+「お前にとって夢は大事なものか？夢は夢だ。叶わないことが多い。何故こだわる理由がある」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_0.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name1">リリア</b>
+<br>
+「みんな…？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『冒険者というものは……全て、等しく夢を持って旅立つものだ』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『それは、宝かもしれない。仲間との胸踊る冒険かもしれない。強敵との手に汗握る戦いかもしれない』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+静かに扉が閉じていく。君達の行く先から、徐々に光が失われていく。</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『私達が交わる必要はないよ、冒険者。君達がこの扉の先に入らなければ、私は街の者に迷惑をかけるつもりもない』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『近づかなければ、触れなければ―――私たちはお互いに不干渉で、迷惑をかけあう事も必要ない』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『最後に残った冒険者が君達のような存在で、心底うんざりだ』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『どうかお帰りを。最早このダンジョンに―――君達の居住む空間は存在しない』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_0.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name1">リリア</b>
+<br>
+「れ、れいどんも…とびらがしまっちゃう！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「……随分とヒステリックな城の主もいたものだ」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「どうするんだ、リーダー」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_2.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name5">レイモンド＝ヴァーク</b>
+<br>
+「待ってくれ！！ならあんたは…本当に楽しい冒険をするためだけにここを作ったのか？いったい何の目的で」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_5.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">カディナ</b>
+<br>
+「……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『……君達は』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『何故、”冒険”をする？何故、旅に出た？』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_2.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name5">レイモンド＝ヴァーク</b>
+<br>
+「オイラは…オイラ達はなんで冒険してるんだ…？もともとはもっと…」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+君達は依頼を受けてここに訪れた。しかし、それは―――冒険者である君達にとって、本当に意味のある事なのだろうか。自由に生きる君達にとって、依頼は―――全てではない。</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+君達は、もう一度思い出す必要がある。冒険とはなんであるか。―――仲間との自由とは、なんであるかを。</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_9.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name3">ガル</b>
+<br>
+「…………私は」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_0.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name1">リリア</b>
+<br>
+「れいどんも…つらそうなかお…どうして？たのしくない？このぼうけん…」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_9.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name3">ガル</b>
+<br>
+「みんなとであって、色んな所に行って。凄く、楽しかったよ」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_9.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name3">ガル</b>
+<br>
+「……このギルドに出会えてよかった、って。そう思ってる」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_2.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name5">レイモンド＝ヴァーク</b>
+<br>
+「そうだ…はじめての冒険はもっとみんなのために…依頼のためにじゃなくて…」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+”彼”は、君の言葉を。君達の言葉を待っている。</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_5.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">カディナ</b>
+<br>
+「……私は別に、鱈腹飯が食えて、やりたいことができればなんでもいい」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_5.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">カディナ</b>
+<br>
+「お前が決めろレイモンド。私には分からんぞ」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_2.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name5">レイモンド＝ヴァーク</b>
+<br>
+「見たことのない景色…知らない人との出会いや別れ…そういう自分が知らない楽しいことを求めて冒険しはじめたんじゃないのか…！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_0.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name1">リリア</b>
+<br>
+「れいどんも…かんがえすぎだよ！…もっとかんたんなことなんだよきっと」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_2.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name5">レイモンド＝ヴァーク</b>
+<br>
+「………………」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_2.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name5">レイモンド＝ヴァーク</b>
+<br>
+「………だぁあ！！！やっぱりどんだけ考えてもわからねぇ！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_2.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name5">レイモンド＝ヴァーク</b>
+<br>
+「ごめんみんな！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「……愚か者め。いくらでも言葉を生み出せるだろうが、お前なら」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_2.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name5">レイモンド＝ヴァーク</b>
+<br>
+「俺は…オイラは！！少し我慢しすぎてた！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_0.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name1">リリア</b>
+<br>
+「あやまることなんてなにもないんだよ…れいどんもはれいどんものままでいいんだよ！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_2.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name5">レイモンド＝ヴァーク</b>
+<br>
+「オイラはやっぱりみんなと楽しい冒険がしたい！！見たことない景色やお宝そういう胸躍るような冒険がもっとしてぇ！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+彼は―――”冒険者”の訪れを待っている。騎士ではない。街を守る衛兵でもない。王国の兵士でも、ましてや、大きな龍でもない。</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+忘れられた、”冒険者”を―――待っているのだ。</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_9.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name3">ガル</b>
+<br>
+「……ん、私も」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_2.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name5">レイモンド＝ヴァーク</b>
+<br>
+「悪い、チュートリアル伯爵！！オイラが間違ってた！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_2.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name5">レイモンド＝ヴァーク</b>
+<br>
+「今までいろんなものを背負ってきたせいで自分を見失って…自分のしたいことがわからなくなってた！！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_2.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name5">レイモンド＝ヴァーク</b>
+<br>
+「だからあんたの作ってくれたダンジョンで！！もう一度俺たちに冒険者の心を思い出させてくれ！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『…………リーダーである故、仲間から一歩引き。全てを俯瞰してみることで危険を回避しようとする。そうして……楽しみを失う冒険者を多く見てきた』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『―――ならば、応えるがいい。問おう！冒険者の諸君にとって、冒険とは……”自由”とはなんであるか！』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+―――返答を待つ。これは、君達全員への問いだ。</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_5.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">カディナ</b>
+<br>
+「……レイモンド、お前は決めたんだな」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_0.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name1">リリア</b>
+<br>
+「わたしのぼうけん…れいどんもと…みんなといっしょに、しんじゃったほかのいもうとたちのぶんも、さいこうにたのしむこと。このせかいのぜんぶを！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「…………依頼を受け、熟し。金を稼ぐこと。それが冒険者であると、そう思っていた。特に俺は、奴にもう一度会うため……修行ができればそれでよかったものでな」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「俺には自由も、冒険者の楽しみも分からん。そういうのは、ウチの筋肉ダルマに全て任せる。俺は……そんなバカなリーダーを支えるだけだ」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「僕的な冒険…そういうの大っぴらに喋るのは柄じゃないんですがね…ですが今までの旅は全部楽しく自由にやらせてもらってましたよ…きっとこれからの冒険もね」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_9.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name3">ガル</b>
+<br>
+「自由奔放に、楽しく生きる。今までの私はそれだった。だけど……みんなと出会った。今の私の楽しさは、自由は……みんなと一緒に、新しい人生を生きて行くこと」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_5.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">カディナ</b>
+<br>
+「私には夢なんてそんな明るいものは知らない。教えられてもいない。ただ、似た言葉なら知っている」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_5.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">カディナ</b>
+<br>
+「私は日常が欲しい。夢は悪夢しか知らない。私が夢という言葉を語るなら……夢に憧れている。自由が欲しい。私が欲しい。私がやりたいことをやりたい」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_5.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">カディナ</b>
+<br>
+「つまらない応えで悪いな」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_2.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name5">レイモンド＝ヴァーク</b>
+<br>
+「オイラにとって冒険は…ここにいるクリアパスファインドのメンバーと出会わせてくれた…かけがえのないものだ！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_2.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name5">レイモンド＝ヴァーク</b>
+<br>
+「いつのまにか…それを忘れてみんなのために頑張ることだけが目的になってた！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_2.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name5">レイモンド＝ヴァーク</b>
+<br>
+「でもその中には自分が入ってなかった！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_2.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name5">レイモンド＝ヴァーク</b>
+<br>
+「みんなのために冒険をするのは確かに大事だけど…自分が楽しめなくちゃ意味ないよな！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_2.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name5">レイモンド＝ヴァーク</b>
+<br>
+「オイラは今回の…いやこれからはリーダーとしてここにいる誰よりも自由で…楽しんで冒険するぜ！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『―――結構！』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『君達をいざなおう、迷宮へと、胸躍る冒険へと！』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+『告げろ、諸君の名を！』</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_2.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name5">レイモンド＝ヴァーク</b>
+<br>
+「オイラ達は…クリアパスファインド！！これからどの冒険者よりも！！冒険を楽しむパーティだ！！！！！！！！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+扉が開く。君達を迎え入れ―――胸躍る冒険へといざなうために！</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_9.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name3">ガル</b>
+<br>
+「お～」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「……アントン＝カタストロ。参る」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+チュートリアル　ここまで</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+パリス同盟のグランフェルデン王国 王国の砦の近くにゴブリンの群れを発見したと報告される。 ゴブリンリーダーがいないとゴブリンの群れは集まらないことから ゴブリンの巣が近くにあり、そこにゴブリンリーダーがいるという事を酒場は予想し、 「ゴブリンの巣を発見し、もしゴブリンリーダーが存在する場合は撃破せよ」 というミッションを発行する。 数が増えると脅威にもなりえる。王国の安全を守るためにゴブリンの群れを掃討せよ。 アリアンロッドRPG２E　「　蔓延る蛮族達を掃討せよ　」 剣と魔法の冒険が君を待つ！</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+グランフェルデン王国のとある酒場</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_6.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">受付嬢</b>
+<br>
+「いらっしゃいませ～…」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_6.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">受付嬢</b>
+<br>
+「返事ねぇな！おい！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「え、私に言ってます？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_6.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">受付嬢</b>
+<br>
+「どのような依頼がいいですゴブか～？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「なんですかその変な語尾……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_6.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">受付嬢</b>
+<br>
+「なるほど！！ゴブリン討伐に行きたいですか！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「ていうか早くご飯持ってきてください」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「せっかくいいお客さんから良いお買い物してもらったのに」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_6.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">受付嬢</b>
+<br>
+「そんな些事はともかく！いや～～～～いいところに来ましたねぇ～～～！！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「完全に無視じゃないですか！！！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_6.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">受付嬢</b>
+<br>
+「こんなところに誰も受けたがらない塩漬け依頼書が！！！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「いーーーやーーーでーーーすーーーー！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「絶対ろくでもない依頼じゃないですか！！！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_6.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">受付嬢</b>
+<br>
+「おい…受けろよ冒険者」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「えぇ……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_6.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">受付嬢</b>
+<br>
+「なぁ…おいてけよ…OKの返事おいてけよ」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「絶対置きません！！絶対置きません！！！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_6.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">受付嬢</b>
+<br>
+「はぁぁぁぁぁ…っつっかえ」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「誰が使えないやつですか！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「なにを騒いでる…騒がしいな」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「騒がしいならそこの受付嬢の依頼でも受けたらどうですか！？！？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「しょうがない…俺も手伝おう」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_7.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+「はぁーーー！！ほんっとやっｔｔｔｔてらんないわよ！」（ドアを勢いよく開ける）</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「も！？！？『も』ってなんですか！？！？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_6.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">受付嬢</b>
+<br>
+「では、まずは二人確保～」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「あーーーーもーーーーなんか巻き込まれてるーーーーーー！！！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_6.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">受付嬢</b>
+<br>
+「この依頼は4人PT用なので、そこらへんで暇してる奴ら二人引っ張ってきてくださいね」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「しょうがないですね！！あんたのせいだからねこの馬鹿サムライ！！！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_7.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+「あいつ！！ほんとに（ピー音）いつか絶対（ピー音）（ピー音）で（ピー音）してやるわよ！！！！！！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「バカとはなんだ…バカとは…」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「馬鹿じゃないですか詳しい内容も聞かずにホイホイ依頼受けるなんて！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+刀を出し入れする（ﾁｬｷﾁｬｷﾁｬｷﾁｬｷﾁｬｷﾁｬｷﾁｬｷ）</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「何の音だ！！！！！！？？？？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「刀ってそんなチャキチャキさせるもんなんですか！？！？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_7.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+（鳴り響く警告音）</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「そこかぁ！！！カタストロ流抜刀術！！！一の型！！！『なんとかかんとか剣』！！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_7.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+「マジカルリリア☆依頼を受けに華麗に参上よ☆アハッ☆」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「雑っっつ！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「そこな小娘…俺たちと依頼をうけないか？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「おいこいつナンパ気味に誘うな」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_7.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+「…魔法少女は困ってる人を見捨てない！私が一緒にいってあげる☆」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「っふ…これで3人目」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_7.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+（鳴りやむ警告音）</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「後一人だ！！！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「それでいいんですか……？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「幸先不安ですよかなり」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「……戻ったぞ。まったく、他のメンバーが不在の時にこんな面倒な依頼を渡してくるんじゃない……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「そこのメイジ！俺と勝負しろ！俺が勝ったらお前は俺のものだ！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_7.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+「…やっとおさまった」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「……？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「愛の告白の類か？悪いが俺に男色の気はない。他を当たってくれ」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「杖が納まれば刀が納まらず……何でこんな奴らと……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「行くぞ！！カタストロ流抜刀術十八の型『綺羅閃光殺撃残鋭剣～ホムラ～』！！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+アントンの頭にポーションを振りかける。</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「もうツッコミませんからね」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「……少しは落ち着いたか？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_7.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+「…私が言うのもなんだけどあんた頭大丈夫？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「あーあいつもやばい」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「ああすごく落ち着いた」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「ええ……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「……で、一体何の用なんだ？絡み酒なら他を当たって欲しいんだが……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「すまないな…初めての依頼ということで気が前のめりだったようだ」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「依頼？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「君達３人はギルドなのか？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「いや全く？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「あぁ…まだギルド未満だがな…依頼を受けるには…4人必要だと言われてな」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_7.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+「いや私も別に受けたくは…（鳴り響く警告音）目の前に困ってる人がいたら助けるのが魔法少女の義務だから☆（ゝω・）vｷｬﾋﾟ」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「なんだろう……とても落ち着…い…てる…」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「こいつらやばいって！！！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「……随分変わった三人組だな……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「私も含まれてます！？！？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「して…どうだろうか…暇なら依頼を一緒に受けないか？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「違ったか？まぁ振り回されているだけとも見えるが……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「すまないな、俺は今『電子レンジの妖精』探しで忙しいんだ、仲間なら他を当たってもらえると……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「どうみても振り回されてるでしょうが！！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_7.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+（鳴りやむ警告音）</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_7.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+「…私もこの杖に振り回されてるのよ…」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_6.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">受付嬢</b>
+<br>
+「おお！！もう4人集めるとは！！すごいですねぇ！運命ですねぇ！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「……君は素でやってのけているように見えるが」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「何ッ！？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_7.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+（恥ずかしすぎて死にたい）</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「ま、待て、俺は……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_7.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+「んなわけないでしょ！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_6.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">受付嬢</b>
+<br>
+「YO！YO！優しいじゃんねジュザさん…新米冒険者を助けるなんて！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「えーマジですか……正気ですか？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「…………そうだな（諦観」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「慣れが速い……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「仕方ない、目を付けられた以上何を言ってもそちらに回されてしまう事だろう。俺は『月兎旅団』のジュザ＝アワオンだ。既にギルドに入っている都合上、君達のギルドに加わることはできないが……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「それでもよければお供しよう」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「ふん！アントン＝カタストロだ！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_7.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+「私はリリア、よろしくね」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「あー、すでに被害済みなんですね……じゃあしょうがないなあ。……クロイツです。今回だけのご縁でしょうがよろしく」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_6.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">受付嬢</b>
+<br>
+「でわでわ、4人そろったところで依頼の詳細と行きましょうか！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「『電子レンジの妖精』の件は一旦忘れて大丈夫か？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「それ触れたくもない名前っぽいので一生忘れてください」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_6.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">受付嬢</b>
+<br>
+「えぇ！まぁシンプルな討伐依頼です、ゴブリンが最近とある洞窟を占拠しまして、その討伐を皆さんには依頼したいと思います」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_6.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">受付嬢</b>
+<br>
+「それでは即席ギルド…え～っと…ギルド名何にしましょう？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_7.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+「めんｄ…（鳴り響く警告音）私たちに任せて！！みんな！！魔法の力で乗り越えるわよ！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「……（仮）ギルドとかじゃダメなのか？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「私には縁がないので誰か適当に決めてください」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「じゃあリリアさんどうぞ」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_6.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">受付嬢</b>
+<br>
+「では『ウケツケジョーダイスキ♡』ということで！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「死んでも却下あああああ！！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「……その、アントンさん。何かないか？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「ふぅむ…リリアよ…良い名前は無いか？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「……リリアさんが決めるそうだ。何かいい案はあるか？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_7.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+「あによ、私が決めるの？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+（ていうかあの子に振り過ぎじゃない……？）</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「うむ…お前のセンスがこの世界に鳴り響くつもりで名付けてくれ…まるでその警告音のようにな！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_7.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+「ならクロイツ、リリア、アントンから一文字ずつとってクリアとかどうかしら？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_7.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+「…うん私にしてはいいネーミングじゃない？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「ふむ……いいんじゃないか？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「ならばこれから俺たちは『クリア』だ！！！！！！！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「良いですけどなんか味付け足りなくないですか？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「……どれだけ長続きするギルドなのかは分からないが」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「”冒険”や、”旅”というようなミーニングを入れてみるといいんじゃないか？俺達の”旅団”のようにな」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_7.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+「そうねぇ…探検者…パスファインドを付け足すとかはどう？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+「ふーん。ま、少しはマシになりましたね」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「でわ『クリア旅』だ！！！…む…パスファインドか…その方がイイな」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_7.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+「クリアパスファインド…うんなんだかこれしかない気がするわ」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_8.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ジュザ＝アワオン</b>
+<br>
+「……クリアは空。真っ新、か。”未知の探究者”、いい名前じゃないか」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_3.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name6">アントン=カタストロ</b>
+<br>
+「っふ…だな」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_7.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name2">クリア</b>
+<br>
+「この先々の運命でこの名前が重要になってくる気がするわ、なぜだかはわからないけど」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+（ま、面倒事終わったら即おさらばですよこんなギルド）</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_6.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">受付嬢</b>
+<br>
+「さぁ！ギルド名も決まったことだし依頼の詳細を説明しますよ～」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_4.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name7">クロイツ</b>
+<br>
+（嫌に決まってるだろ。こんな変人のこと誰が好きになるんだよ。恋にも落ちねーよ）</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+こうして洞窟の場所、報酬についてを確認した君たちは準備を整え出発することとなった</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+終わり！！</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+君達の旅の目的は、みんなバラバラだ。同じ方向を向いているようで、まるで違う方向を向いていて。それでも、隣にいる事に違和感を感じる事すらない。</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+世界を救う旅ではない。目的は、きっと自分たちの目的のため。その序に、世界を救ってしまうだけなのだろう。</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+君達は……きっと、英雄になることはないのだ。世界は、まだ危機にすら気付くこともできていないのだろう。</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+それでも。君達は進むのだ。大事なものを守るため、大切な人を救うため。</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_11.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">アスカ</b>
+<br>
+「………ねぇシオン、お姉ちゃん…まだ起きてる…？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_12.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">シオン</b>
+<br>
+「ん…あすか？…眠れないの…？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_11.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">アスカ</b>
+<br>
+「…うん…少し…ね、シオンお姉ちゃん…少しお話しない？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_12.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">シオン</b>
+<br>
+「いいよ…少しだけね？明日も早いんだから…」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_11.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">アスカ</b>
+<br>
+「えへへ…ありがと…」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_12.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">シオン</b>
+<br>
+「あすか、最近の鍛錬は順調？…少しはつよくなったかな？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_11.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">アスカ</b>
+<br>
+「うん、少しずつだけど…ね、でもまだそんなに実感がわかないから…」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_11.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">アスカ</b>
+<br>
+「この世界が平和になったら、鍛錬に…つきあってほしいな…」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_12.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">シオン</b>
+<br>
+「もちろん…そして約束通り皆で旅に出よう…きっと楽しいよ」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_11.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">アスカ</b>
+<br>
+「うん！マサルにフロイ、ラナ、シオンねーちゃんみんなで一緒に」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_11.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">アスカ</b>
+<br>
+「きっと楽しいんだろうなぁ…」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_11.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">アスカ</b>
+<br>
+「みんなでアッキーのところで…また一緒にご飯も食べたいな…」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_12.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">シオン</b>
+<br>
+「ふふっ。先の未来のことを楽しみにするのもいいけど…明日寝坊しちゃだめだよ？さぁ…もう寝よう？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_11.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">アスカ</b>
+<br>
+「そう…だね…私も……もう眠いや……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_12.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">シオン</b>
+<br>
+「おやすみ…あすか…」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_11.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">アスカ</b>
+<br>
+「しおんねーちゃん……絶対に…負けない……で……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_11.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">アスカ</b>
+<br>
+「…………」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+話しながら、突然静かになって。</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+そういえばロアも、さっきまで元気だったのに突然、電池が切れたように静かになって、眠ってしまっていた事を思い出す。</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+静かな寝息。穏やかに笑う寝顔。</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+―――二人の少女の寝息がテントから聞こえて。</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+水面に、夜空から照らす月が揺れている。夜も更け、輝く星が月明かりに隠され始めているようだ。</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+吹き抜ける風が、どこか肌寒い。</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「……ん？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+朝早く、鍛錬も終わった星空の下。一人、夜空を見上げるラナに気付いて、近付いていく。</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「……ラナ、どうしたんだ？随分早いな」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「あ、フロイさん。……見られちゃいましたね」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「眠れないのか？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「はい、そうなんです……といっても、もう慣れましたけど」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「へえ……意外だな。ラナは、いつも寝つきはいい方だと思ってた」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「そうですか？……実は寝れないんです。私の村が、滅んだ時から」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「…………」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「今まで、聞けなかったんだが」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「ええ、初めて言いましたから」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「……何があったんだ？その……話し辛いかもしれないけど」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「聞いてもあまり楽しくないですよ？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「……いいんだ。聞かせてくれ」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「それで……ラナの抱えてるものが一つでも減るなら。俺でよかったら、いくらでも聞くよ」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「ふふ。ありがとうございます！<br>
+……私の兄さんが、多分、滅ぼしちゃったんです」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「……兄さんが？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「はい、私の為に。多分ですけど」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「生き残ったのも私と兄さんと、ムジナの男の子。それだけでした」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「……って事は、ラナの父さんと、母さんも……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「……はい」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「……そうだったのか……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「夜にピッタリな暗い話ですよね？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「……そりゃあ、話したくなかったよな」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「すまん、思い出させて」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「……そうですね。しっかり思い出しちゃいました（ニコッ）」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_15.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「…………俺は」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「じゃあ……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「一つだけ、お願いいいですか？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_15.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「……ああ」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「さっき話した故郷の建て直し、手伝ってもらえませんか？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_15.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「……俺が？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_15.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「勿論構わないけど……いいのか？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「はい。今ここに立っている、あなたに」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「本当は、眠れないのが少し怖いんです」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「でも……見てください。夜が明けてきました」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「寝れない私にくれたささやかな御褒美。この瞬間は怖くないんです」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「だから……もう少しだけ暖かくしてくれませんか？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「……？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「ああ、毛布が欲しいのか？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「……もう！からかわないでください！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「……から、かう？どういうことだ？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「……ああ！分かった、温かい飲み物が欲しいんだな？ちょっと待っててくれ、今準備を……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+（本当に……分からない人ですね。でも……これもいいかもしれませんね）</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「ダメです！今決めてください！手伝ってくれますか！？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「再建の話なら、勿論手伝うさ。大事な仲間の事だしな、それに……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「俺、好きなんだよ」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「！？！？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「え、ちょ、どういう……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「DIY、っていうのか？木材を運んだりするのも鍛錬に丁度いいしな！トレーニングにはピッタリなんだよ！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「ん、どうしたラナ？」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「あ、ああ！なるほど！！そそそうでしたか！！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「……顔、赤いぜ？やっぱりもうちょっと寝てきた方がいいんじゃ……」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「い、いえ結構です！！（3m爆速で離れる）……でもありがとうございます」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「うぉっ、げ、元気そうだな……それならいいんだが」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+「……絶対ですよ？約束、ですからね！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_13.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">フロイ</b>
+<br>
+「……ああ！約束だ！」</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+（今は……これで大丈夫。だって……）</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_14.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name8">ラナ</b>
+<br>
+（夜が少し、怖くなくなりましたから）</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+朝の光が、君達の顔を照らし出す。<br>
+もうすぐ、彼誰時が終わる。<br>
+朝日に照らされたからなのか。それとも。<br>
+二人の頬は、どこか。薄らと赤くなっていて。</div>
+</div>
+<div class="main">
+<div class="ic">
+<img src="img/game/icon_1.png" draggable="false" width="60" height="60">
+</div>
+<div class="p">
+<b class="name4">GM</b>
+<br>
+おわり</div>
+</div>
+<p class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-11q8n1y system">[ リリア ] フェイト : 0 → 6</p>
+<p class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-11q8n1y system">[ カディナ ] フェイト : 0 → 5</p>
+<p class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-11q8n1y system">[ アントン=カタストロ ] フェイト : 0 → 6</p>
+<p class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-11q8n1y system">[ クロイツ ] フェイト : 0 → 6</p>
+<p class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-11q8n1y system">[ レイモンド＝ヴァーク ] フェイト : 0 → 5</p>
+<p class="MuiTypography-root MuiTypography-body2 MuiListItemText-secondary css-11q8n1y system">[ ガル ] フェイト : 0 → 5</p>
+</div>
+</body>
+</html>
